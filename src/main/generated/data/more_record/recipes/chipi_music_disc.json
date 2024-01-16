@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "STS"
+  ],
+  "result": {
+    "item": "more_record:chipi_music_disc"
+  },
+  "show_notification": true
+}

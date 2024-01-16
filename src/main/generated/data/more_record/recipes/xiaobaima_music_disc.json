@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:chicken"
+    },
+    "T": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "X": {
+      "item": "minecraft:feather"
+    }
+  },
+  "pattern": [
+    "SXS",
+    "XTX",
+    "SXS"
+  ],
+  "result": {
+    "item": "more_record:xiaobaima_music_disc"
+  },
+  "show_notification": true
+}

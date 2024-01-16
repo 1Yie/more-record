@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "more_record",
+	"version": "${version}",
+	"name": "More Record",
+	"description": "Adding more discs to vanilla Minecraft.(Material source network)",
+	"authors": [
+		"ichiyo"
+	],
+	"contact": {
+		"homepage": "https://wiki.ingstar.moe/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/more_record/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"moe.ingstar.morerecord.MoreRecord"
+		],
+		"client": [
+			"moe.ingstar.morerecord.MoreRecordClient"
+		],
+		"fabric-datagen": [
+			"moe.ingstar.morerecord.MoreRecordDatagen"
+		]
+	},
+	"mixins": [
+		"more_record.mixins.json",
+		{
+			"config": "more_record.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
