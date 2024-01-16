@@ -1,5 +1,6 @@
 package moe.ingstar.morerecord;
 
+import moe.ingstar.morerecord.Items.ModGroup;
 import moe.ingstar.morerecord.Items.ModItems;
 import moe.ingstar.morerecord.Sounds.ModSounds;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class MoreRecord implements ModInitializer {
 	public void onInitialize() {
 		ModSounds.registerSounds();
 		ModItems.registerItems();
+		ModGroup.registerGroup();
 	}
 }
