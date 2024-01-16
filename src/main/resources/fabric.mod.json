@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://wiki.ingstar.moe/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/1Yie/more-record"
 	},
 	"license": "MIT",
 	"icon": "assets/more_record/textures/icon.png",
@@ -25,15 +25,8 @@
 			"moe.ingstar.morerecord.MoreRecordDatagen"
 		]
 	},
-	"mixins": [
-		"more_record.mixins.json",
-		{
-			"config": "more_record.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
-		"fabricloader": ">=0.15.5",
+		"fabricloader": ">=0.15.2",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
