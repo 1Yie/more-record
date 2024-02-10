@@ -8,5 +8,10 @@
     "sounds": [
       "more_record:chipi"
     ]
+  },
+  "under_bright_lights": {
+    "sounds": [
+      "more_record:under_bright_lights"
+    ]
   }
 }

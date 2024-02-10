@@ -18,6 +18,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.XIAOBAIMA_MUSIC_DISC)
-                .add(ModItems.CHIPI_MUSIC_DISC);
+                .add(ModItems.CHIPI_MUSIC_DISC)
+                .add(ModItems.UNDER_BRIGHT_LIGHTS_MUSIC_DISC);
     }
 }

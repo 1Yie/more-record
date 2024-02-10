@@ -11,6 +11,7 @@ import net.minecraft.util.Identifier;
 public class ModSounds {
     public static SoundEvent SUN_WHITE_HOUSE;
     public static SoundEvent CHIPI;
+    public static SoundEvent UNDER_BRIGHT_LIGHTS;
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(MoreRecord.MOD_ID, name);
@@ -20,5 +21,6 @@ public class ModSounds {
     public static void registerSounds() {
         SUN_WHITE_HOUSE = registerSoundEvent("xiaobaima");
         CHIPI = registerSoundEvent("chipi");
+        UNDER_BRIGHT_LIGHTS = registerSoundEvent("under_bright_lights");
     }
 }

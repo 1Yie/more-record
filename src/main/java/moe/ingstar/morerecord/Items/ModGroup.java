@@ -8,6 +8,7 @@ public class ModGroup {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
             content.add(ModItems.XIAOBAIMA_MUSIC_DISC);
             content.add(ModItems.CHIPI_MUSIC_DISC);
+            content.add(ModItems.UNDER_BRIGHT_LIGHTS_MUSIC_DISC);
         });
     }
 }

@@ -21,5 +21,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.XIAOBAIMA_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHIPI_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.UNDER_BRIGHT_LIGHTS_MUSIC_DISC, Models.GENERATED);
     }
 }

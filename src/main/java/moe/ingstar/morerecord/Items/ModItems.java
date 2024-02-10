@@ -18,6 +18,7 @@ public class ModItems {
 
     public static Item XIAOBAIMA_MUSIC_DISC;
     public static Item CHIPI_MUSIC_DISC;
+    public static Item UNDER_BRIGHT_LIGHTS_MUSIC_DISC;
 
     private static Item registerDiscItem(String name, SoundEvent soundEvent, int outPut, int lengthInSeconds) {
         Identifier id = new Identifier(MoreRecord.MOD_ID, name);
@@ -29,7 +30,8 @@ public class ModItems {
     }
 
     public static void registerItems() {
-        XIAOBAIMA_MUSIC_DISC = registerDiscItem("xiaobaima_music_disc", ModSounds.SUN_WHITE_HOUSE, 7, 226);
-        CHIPI_MUSIC_DISC = registerDiscItem("chipi_music_disc", ModSounds.CHIPI, 7, 226);
+        XIAOBAIMA_MUSIC_DISC = registerDiscItem("xiaobaima_music_disc", ModSounds.SUN_WHITE_HOUSE, 3, 226);
+        CHIPI_MUSIC_DISC = registerDiscItem("chipi_music_disc", ModSounds.CHIPI, 5, 226);
+        UNDER_BRIGHT_LIGHTS_MUSIC_DISC = registerDiscItem("under_bright_lights_music_disc", ModSounds.UNDER_BRIGHT_LIGHTS, 7, 227);
     }
 }
